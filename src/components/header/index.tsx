@@ -13,7 +13,7 @@ export const Header = () => {
       <HeaderImage src="/icon.png" />
       <HeaderTitle>Assista aos melhores animes</HeaderTitle>
       <HeaderSubtitle>Faça o download agora mesmo</HeaderSubtitle>
-      <HeaderButton onClick={() => alert("download/ProxtyVPN-v18.16.0-x64.txt")}>
+      <HeaderButton onClick={() => alert("colocar o link do .exe aqui")}>
         <HeaderButtonText>Baixar</HeaderButtonText>
       </HeaderButton>
     </HeaderContainer>
