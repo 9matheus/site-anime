@@ -13,9 +13,11 @@ export const Header = () => {
       <HeaderImage src="/icon.png" />
       <HeaderTitle>Assista aos melhores animes</HeaderTitle>
       <HeaderSubtitle>Faça o download agora mesmo</HeaderSubtitle>
-      <HeaderButton onClick={() => alert("colocar o link do .exe aqui")}>
-        <HeaderButtonText>Baixar</HeaderButtonText>
-      </HeaderButton>
+      <a href="/arquivo">
+      <button>
+          baixar
+      </button>
+      </a>
     </HeaderContainer>
   );
 };
